@@ -1,0 +1,248 @@
+/* HomePage.css */
+.home-page {
+    /* ... other styles ... */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+
+/* HomePage.css */
+/* ... existing styles ... */
+
+.nav-bar {
+  background-color: #333; /* Background color for the navigation bar */
+  padding: 10px 0; /* Add some padding at the top and bottom */
+  text-align: center; /* Center the logo horizontally */
+  width: 100%; /* Make the navigation bar span the entire width of the page */
+  position: fixed; /* Fix the navigation bar at the top */
+  top: 0; /* Position it at the top of the viewport */
+  z-index: 999; /* Ensure it's above other content */
+}
+
+.nav-bar .logo {
+  max-width: 200px; /* Adjust the logo size as needed */
+  margin: 0 auto; /* Center the logo horizontally */
+}
+
+.nav-bar .logo img {
+  width: 100%; /* Make the logo span the width of the nav bar */
+  height: auto;
+}
+
+/* ... existing styles ... */
+
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust to control vertical centering */
+  }
+  
+.big-button {
+font-size: 24px;
+padding: 20px 40px;
+background-color: #9a9b9c;
+color: white;
+border: none;
+cursor: pointer;
+}
+  
+/* HomePage.css */
+.home-button {
+    /* ... existing styles ... */
+width: 500px; /* Adjust the width as needed */
+height: 60px;
+margin: 5px auto;
+background-color: #8ad3e9;
+color: rgb(0, 0, 0);
+border: none;
+border-radius: 8px;
+font-size: 18px;
+cursor: pointer;
+box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+transition: transform 0.2s, box-shadow 0.2s; /* Add transition for smooth animation */
+  }
+  
+.home-button:hover {
+/* ... existing styles ... */
+box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+transform: translateY(-2px); /* Lift the button slightly on hover */
+}
+  
+
+.button-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  position: relative; /* Ensure relative positioning */
+  z-index: 1000; /* Place the button container above the nav bar */
+  margin-top: 200px; /* Add margin to the top to create spacing */
+}
+/* ... existing styles ... */
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+ 
+  
+
+  .button-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: calc(100% + 10px); /* Position the dropdown just below the button */
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    width: 475px; /* Set the width of the dropdown */
+    height: 300px;
+    overflow-y: auto; /* Add scroll if content exceeds the height */
+    transition: opacity 0.5s ease 0.5s, visibility 0.5s ease 0.5s;
+
+  }
+  
+
+  .dropdown-item {
+    padding: 10px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f2f2f2;
+  }
+
+
+  /* GenerateDrugsPage.css */
+
+.generate-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input {
+  padding: 5px;
+  border: 1px solid #abd8db;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.scientific-label {
+  font-family: 'Arial', sans-serif; /* Use your preferred scientific font */
+  font-size: 20px; /* Adjust as needed */
+  font-weight: bold;
+}
+
+.scientific-input {
+  font-family: 'Courier New', monospace; /* Use your preferred scientific font */
+  font-size: 20px; /* Adjust as needed */
+  font-weight: bold;
+}
+
+
+/* HomePage.css */
+/* ... other styles ... */
+
+/* HomePage.css */
+/* ... other styles ... */
+
+.form-entry {
+  margin-bottom: 20px; /* Add margin at the bottom of each form entry */
+  position: relative; /* Add position relative to the form entry */
+}
+
+.tooltip-trigger {
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  top: calc(100% + 5px); /* Position the tooltip below the form entry */
+  left: 0;
+  display: none; /* Hide the tooltip by default */
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.tooltip-trigger:hover .tooltip {
+  display: block;
+}
+
+/* ... other styles ... */
+
+
+/* ... other styles ... */
+
+/* Styles for the Run Docking Study button */
+.run-docking-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #009688; /* Teal color, feel free to change */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.run-docking-button:hover {
+  background-color: #007566; /* Darker teal on hover, feel free to change */
+}
+
+/* Styles for the button's container */
+.button-container {
+  /* ... existing styles ... */
+  margin-top: 120px; /* Add spacing above to separate it from the form */
+}
+
+.docking-button-container {
+  
+  margin-top: 300px
+}
